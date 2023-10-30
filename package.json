@@ -1,8 +1,7 @@
 {
-  "name": "graphql-mesh-monorepo",
-  "version": "0.2.15",
+  "name": "@q00/graphql-mesh",
+  "version": "0.2.16",
   "license": "MIT",
-  "private": true,
   "workspaces": {
     "packages": [
       "website",
@@ -93,5 +92,14 @@
     "**/*.{ts,tsx,graphql,yml,json,md,js,mdx}": [
       "prettier --write"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoodOnuii/Graphql-Mesh.git"
+  },
+  "author": "q00",
+  "bugs": {
+    "url": "https://github.com/GoodOnuii/Graphql-Mesh/issues"
+  },
+  "homepage": "https://github.com/GoodOnuii/Graphql-Mesh#readme"
 }
