@@ -1,5 +1,13 @@
 # @graphql-mesh/container
 
+## 0.2.5
+
+### Patch Changes
+
+- Updated dependencies
+  [[`5b350eaac`](https://github.com/GoodOnuii/Graphql-Mesh/commit/5b350eaacf9aa7ead2d2c52f5363332a72bfb32a):
+  - @graphql-mesh/grpc@0.28.2
+
 ## 0.2.4
 
 ### Patch Changes
