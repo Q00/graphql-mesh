@@ -1,5 +1,13 @@
 # @graphql-mesh/grpc
 
+## 0.96.1
+
+### Minor Changes
+
+- [#6137](https://github.com/ardatan/graphql-mesh/pull/6137)
+  [`396536ff9`](https://github.com/ardatan/graphql-mesh/pull/6137/commits/396536ff9620f72f5943bfbc7af1baae3be0b18c)
+  Transform non-explicit field of protobuf to require field in graphlschema
+
 ## 0.96.0
 
 ### Minor Changes
