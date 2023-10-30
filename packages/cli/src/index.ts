@@ -48,7 +48,7 @@ export const DEFAULT_CLI_PARAMS: GraphQLMeshCLIParams = {
   buildArtifactsCommand: 'build',
   sourceServerCommand: 'serve-source',
   validateCommand: 'validate',
-  additionalPackagePrefixes: [],
+  additionalPackagePrefixes: ['@q00/'],
 };
 
 function getTsConfigBaseDir(baseDir: string) {
@@ -170,7 +170,7 @@ export async function graphqlMesh(
                 importedModulesSet: new Set(),
                 baseDir,
                 meshConfigImportCodes: new Set([
-                  `import { findAndParseConfig } from '@graphql-mesh/cli';`,
+                  `import { findAndParseConfig } from '@q00/gateway-cli';`,
                   `import { createMeshHTTPHandler, MeshHTTPHandler } from '@graphql-mesh/http';`,
                 ]),
                 meshConfigCodes: new Set([
