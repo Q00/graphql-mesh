@@ -24,7 +24,7 @@
     "allowJs": true,
 
     "paths": {
-      "@graphql-mesh/cli": ["packages/cli/src/index"],
+      "@q00/gateway-cli": ["packages/cli/src/index"],
       "@graphql-mesh/runtime": ["packages/runtime/src/index"],
       "@graphql-mesh/config": ["packages/config/src/index"],
       "@graphql-mesh/types": ["packages/types/src/index"],
@@ -38,6 +38,7 @@
       "@graphql-mesh/cross-helpers": ["packages/cross-helpers/index"],
       "@graphql-mesh/string-interpolation": ["packages/string-interpolation/src/index"],
       "@graphql-mesh/*": ["packages/handlers/*/src/index"],
+      "@q00/grpc": ["packages/handlers/grpc/src/index"],
       "json-machete": ["packages/json-machete/src/index"],
       "@omnigraph/*": ["packages/loaders/*/src/index"]
     }
