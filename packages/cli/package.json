@@ -1,6 +1,6 @@
 {
-  "name": "@q00/gateway-mesh-cli",
-  "version": "0.87.15",
+  "name": "@q00/gateway-cli",
+  "version": "0.87.16",
   "type": "module",
   "repository": {
     "type": "git",
