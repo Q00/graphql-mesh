@@ -1,12 +1,14 @@
 # @graphql-mesh/grpc
 
-## 0.96.1
+## 0.97.0
 
 ### Minor Changes
-
 - [#6137](https://github.com/ardatan/graphql-mesh/pull/6137)
   [`396536ff9`](https://github.com/ardatan/graphql-mesh/pull/6137/commits/396536ff9620f72f5943bfbc7af1baae3be0b18c)
-  Transform non-explicit field of protobuf to require field in graphlschema
+  Transform non-explicit field of protobuf to require field in graphlschema when using source protofile
+
+- [`e0ac7512a`](https://github.com/Q00/graphql-mesh/commit/e0ac7512ab39aab451a552dbe4b563539ee495db)
+  Transform non-explicit field of protobuf to require field in graphlschema when using grpc reflection
 
 ## 0.96.0
 
